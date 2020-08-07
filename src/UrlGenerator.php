@@ -16,6 +16,6 @@ class UrlGenerator
         $data = $email . $time.$this->key;
         $hash = base64_encode(hash('sha256', $data));
 
-        return 'https://achats.qantis.co/connexion/?email='.$email.'&timestamp='.$time.'&hash='.$hash;
+        return 'https://achat.qantis.co/connexion/?email='.$email.'&timestamp='.$time.'&hash='.$hash;
     }
 }
