@@ -1,5 +1,5 @@
 {
-  "name": "Qantis/urlGenerator",
+  "name": "qantis/url-generator",
   "description": "Generateur de lien de connexion pour QantisAchat",
   "require": {
     "php": "^7.0"
