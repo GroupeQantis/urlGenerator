@@ -1,4 +1,4 @@
-# Génération des urls de connexion QantisAchat
+# Génération des urls de connexion des plateformes Qantis
 
 ## En php via Composer
 
@@ -14,10 +14,10 @@ include __DIR__.'/vendor/autoload.php';
 $urlGenerator = new UrlGenerator('ma_clé_secrete');
 $url = $urlGenerator('test@example.com');
 echo $url;
+// renvoit /connexion/?email=test@example.com&timestamp=111111&hash=xxxxxx
 ```
 
 ## Algorithme général
-La base de l'url est `https://achat.qantis.co/connexion/`
 Les parametres requis : 
 - `email` qui correspond à l'email de l'utilisateur à connecter
 - `timestamp` en secondes
