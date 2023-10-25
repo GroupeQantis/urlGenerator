@@ -1,0 +1,10 @@
+
+/vendor/
+
+.idea
+/.vscode/launch.json
+/.vscode/
+
+###> friendsofphp/php-cs-fixer ###
+/.php-cs-fixer.cache
+###< friendsofphp/php-cs-fixer ###
