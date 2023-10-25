@@ -1,6 +1,6 @@
 {
   "name": "qantis/url-generator",
-  "description": "Generateur de lien de connexion pour QantisAchat",
+  "description": "Générateur de lien de connexion pour les plateformes et la marketplace Qantis",
   "require": {
     "php": "^7.0"
   },
