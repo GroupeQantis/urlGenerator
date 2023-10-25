@@ -2,7 +2,7 @@
 
 namespace Qantis\Tools;
 
-class UrlGenerator
+class MkpUrlGenerator
 {
     private $key;
 
@@ -17,6 +17,6 @@ class UrlGenerator
         $data = $email . $time.$this->key;
         $hash = base64_encode(hash('sha256', $data));
 
-        return '/connexion/?email='.$email.'&timestamp='.$time.'&hash='.$hash;
+        return '/login/auto-login?email='.$email.'&timestamp='.$time.'&hash='.$hash;
     }
 }
