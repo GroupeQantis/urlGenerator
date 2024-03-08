@@ -2,7 +2,7 @@
   "name": "qantis/url-generator",
   "description": "Générateur de lien de connexion pour les plateformes et la marketplace Qantis",
   "require": {
-    "php": "^7.0"
+    "php": "^7.0||^8.0"
   },
   "autoload": {
     "psr-4": {
