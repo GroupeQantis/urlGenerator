@@ -16,7 +16,7 @@ include __DIR__.'/vendor/autoload.php';
 $urlGenerator = new UrlGenerator('ma_clé_secrete');
 $url = $urlGenerator('test@example.com');
 echo $url;
-// renvoit /connexion/?email=test@example.com&timestamp=111111&hash=xxxxxx
+// renvoie /connexion/?email=test@example.com&timestamp=111111&hash=xxxxxx
 ```
 
 #### Marketplace Qantis
@@ -32,7 +32,7 @@ $urlGenerator = new MkpUrlGenerator('ma_clé_secrete');
 $url = $urlGenerator('test@example.com');
 echo $url;
 
-// renvoit /login/auto-login/?email=test@example.com&timestamp=111111&hash=xxxxxx
+// renvoie /login/auto-login/?email=test@example.com&timestamp=111111&hash=xxxxxx
 ```
 
 - Faire un appel GET sur l'url généré, en retour est envoyé une url sur laquelle rediriger l'utilisateur pour qu'il soit automatiquement connecté à la marketplace
